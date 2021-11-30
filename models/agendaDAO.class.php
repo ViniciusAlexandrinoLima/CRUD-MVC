@@ -87,7 +87,7 @@
 				$stmt->bindValue(1, $agenda->getId());
 				$stmt->execute();
 				$this->db = null;
-			return "Curso excluido com sucesso!";
+			return "Contato excluido com sucesso!";
 			}
 			catch(Exception $e)
 			{
