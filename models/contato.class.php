@@ -1,5 +1,5 @@
 <?php
-    class agenda
+    class contato
     {
         private $id;
         private $name;

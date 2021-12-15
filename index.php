@@ -9,9 +9,9 @@
     } 
     else 
     {
-        require_once "controllers/inicioController.class.php";
-        $obj = new inicioController();
-        $obj->inicio();
+        require_once "controllers/contatoController.class.php";
+        $obj = new contatoController();
+        $obj->listar();
     }
     
 ?>

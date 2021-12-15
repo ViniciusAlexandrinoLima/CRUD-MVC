@@ -26,15 +26,15 @@
                 echo "<td>{$dado->name}</td>";
                 echo "<td>{$dado->phone}</td>";
                 echo "<td>{$dado->observations}</td>";
-                echo "<td><a href='index.php?controle=agendaController&metodo=alterar&id={$dado->id}'>Alterar</a>";
+                echo "<td><a href='index.php?controle=contatoController&metodo=alterar&id={$dado->id}'>Alterar</a>";
                 
-                echo "&nbsp;&nbsp;<a href='index.php?controle=agendaController&metodo=excluir&id={$dado->id}'>Excluir</a></td>";
+                echo "&nbsp;&nbsp;<a href='index.php?controle=contatoController&metodo=excluir&id={$dado->id}'>Excluir</a></td>";
                 echo "</tr>";
             }
         }
     ?>
     </table>
     <br><br>
-    <a href="index.php?controle=agendaController&metodo=inserir">Novo Contato</a>
+    <a href="index.php?controle=contatoController&metodo=inserir">Novo Contato</a>
 </body>
 </html>

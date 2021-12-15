@@ -13,7 +13,7 @@
         <input type="text" name="name" value="<?php echo $ret[0]->name; ?>">
         <br><br>
         <label>Telefone:</label>
-        <input type="number" name="phone" value="<?php echo $ret[0]->phone; ?>">
+        <input type="text" name="phone" value="<?php echo $ret[0]->phone; ?>">
         <br><br>
         <label>Observações:</label>
         <input type="text" name="observations" value="<?php echo $ret[0]->observations; ?>">
